@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background: #16697a;
+    box-shadow: black;
+    margin: 0;
+    padding: 1rem;
+}
+
+main{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+}
+
+main{
+    max-width: 10000px;
+    margin: 0;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 80%;
+}
+
+.card{
+    display: flex;
+    flex-flow: column;
+    border: 1px solid black;
+    border-radius: 1rem;
+    padding: 2rem;
+    background: #ede7e3;
+}
+.card > h1{
+    margin: 1rem 1rem 0;
+}
+.card > p{
+    margin: 0 0 1rem;
+}
